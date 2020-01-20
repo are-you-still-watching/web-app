@@ -11,9 +11,11 @@ Are You Still Watching?
 - Genevieve Lepine <https://github.com/nep2ne>
 - Sebastian Turner <https://github.com/Sebby-T>
 - Kyle Pereira <https://github.com/KyleVBP>
+- Laura Meguerditchian <https://github.com/moutonrebelle>
 
 ## Team Roles
 
 - Project Manager: Genevieve Lepine
 - UX Lead: Kyle Pereira
 - Dev Lead: Sebastian Turner
+- Designer: Laura Meguerditchian
