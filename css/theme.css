@@ -1,0 +1,58 @@
+:root {
+  --color-primary: #27222b;
+  --color-primary-dark: #121212;
+  --color-primary-light: #302b33;
+  --color-secondary: #ffffff;
+  --color-secondary-dark: #f2f2f2;
+  --color-secondary-darker: #d2d2d2;
+  --color-accent: #fce84d;
+  --color-accent-netflix: #e50914;
+  --color-accent-crave: #00c1f3;
+  --color-accent-disney: #0072d2;
+  --color-accent-prime: #0f79af;
+
+  --font-primary: Roboto, Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.black {
+  font-weight: 900;
+}
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+/* list */
+
+ul,
+ol,
+dl {
+
+}
