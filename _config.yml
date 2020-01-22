@@ -2,4 +2,11 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Are You Still Watching?"
+  description: |
+    This app will allow users to keep track of what shows they are currently watching, what episode they are currently on, upcoming releases, recent releases, etc. regardless of streaming platform.
   font_url: "https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&display=swap"
+
+  colors:
+    background: "--color-primary"
+    accent: "--color-secondary"
