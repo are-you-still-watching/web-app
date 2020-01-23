@@ -16,6 +16,8 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .light {
@@ -49,10 +51,30 @@ h2 {
   font-weight: 900;
 }
 
-/* list */
+h4 {
+  font-weight: 500;
+}
 
-ul,
-ol,
-dl {
+/* links */
 
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: 500;
+}
+
+/* emphasis & edits */
+
+strong {
+  color: var(--color-accent);
+  font-weight: normal;
+}
+
+del,
+s {
+  color: var(--color-secondary-darker);
+}
+
+mark {
+  background-color: var(--color-accent);
 }
