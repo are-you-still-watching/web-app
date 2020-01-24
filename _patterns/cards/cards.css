@@ -32,6 +32,7 @@
 
 .card-txt {
   padding: 0.8em;
+  position: relative;
 }
 
 p {
@@ -48,6 +49,11 @@ p {
 .btn:hover {
   background-color: var(--color-primary-card);
   border: none;
+}
+
+.btn-position {
+  position: absolute;
+  bottom: 0.8em;
 }
 
 .card-platform-netflix {
