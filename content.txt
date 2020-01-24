@@ -1,0 +1,54 @@
+Content is organized as:
+  Show
+  - title
+  - platform
+  - show description
+
+  Episode
+  - Season/Episode number
+  - Episode title
+  - Episode description
+
+Show 1:
+  Overall show description:
+    The Witcher
+    Netflix
+    Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.
+
+  Individual episode:
+    S01 • EP06
+    Rare Species
+    A mysterious man tries to entice Geralt to join a hunt for a rampaging dragon, a quest that attracts a familiar face. Ciri questions who she can trust.
+
+Show 2:
+  Overall show description:
+    Killing Eve
+    Crave
+    Eve's life as a spy is not adding up to what she had hoped it would be when she started. She is a bored, very smart, MI5 security officer who is very desk-bound. Villanelle is a very talented killer, mercurial in mood, who clings to the luxuries of her job. Eve and Villanelle go head to head in a fierce game of cat and mouse, each woman equally obsessed with the other as Eve is tasked with hunting down the psychopathic assassin.
+
+  Individual episode:
+    S01 • EP04
+    Sorry Baby
+    Intel from Berlin points to the existence of a mole, prompting Eve to undertake her first surveillance operation.
+
+Show 3:
+  Overall show description:
+    The Boys
+    Amazon Prime
+    Superheroes are often as popular as celebrities, as influential as politicians, and sometimes even as revered as gods. But that's when they're using their powers for good. What happens when the heroes go rogue and start abusing their powers? When it's the powerless against the super powerful, the Boys head out on a heroic quest to expose the truth about the Seven and Vought, the multibillion-dollar conglomerate that manages the superheroes and covers up their dirty secrets.
+
+  Individual episode:
+    S01 • EP02
+    Cherry
+    The Boys get a Superhero; Starlight gets payback; Homelander behaves badly; a Senator gets rowdy.
+
+Show 4:
+  Overall show description:
+    The Mandalorian
+    Disney+
+    Bounty hunting is a complicated profession. A lone gunfighter makes his way through the outer reaches of the galaxy, far from the authority of the New Republic.
+
+  Individual episode:
+    S01 • EP05
+    The Gunslinger
+    The Mandalorian helps a rookie bounty hunter who is in over his head.
