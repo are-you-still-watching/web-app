@@ -49,3 +49,7 @@ p {
   background-color: var(--color-primary-card);
   border: none;
 }
+
+.card-platform-netflix {
+  color: var(--color-accent-netflix);
+}
