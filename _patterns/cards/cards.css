@@ -1,9 +1,4 @@
-.card-list-view {
-  background-color: var(--color-primary-card);
-  border-radius: 7px;
-}
-
-.card-grid-view {
+.card {
   background-color: var(--color-primary-card);
   border-radius: 7px;
 }
