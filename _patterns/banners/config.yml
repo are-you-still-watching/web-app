@@ -3,10 +3,10 @@ description: |
   Banners are designed to provide a visual element that draws the attention of the user. They sometimes serve as a content divider.
 
 patterns:
-  about-me-banner:
-    title: "About-me banner"
+  main-page-banner:
+    title: "Main Page Banner"
     description: |
-      About-me banners are used on the homepage of the site to describe who I am and why I am a designer.
+      Main page banners are used on the homepage of the site to highlight a show in the user's list.
     fields:
       - name: heading1
         type: string
