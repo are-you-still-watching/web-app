@@ -1,0 +1,61 @@
+.card {
+  background-color: var(--color-primary-card);
+}
+
+.card-img {
+  position: relative;
+  border-radius: 7px;
+}
+
+.img-hover:hover {
+  filter: blur(3px);
+  transition: all .2s ease;
+}
+
+.card-play {
+  position: absolute;
+  max-width: 30%;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .2s ease;
+  opacity: 0;
+}
+
+.card-img:hover .card-play {
+  opacity: 1;
+}
+
+.card-img:hover .img-hover {
+  filter: blur(3px);
+}
+
+.card-txt {
+  padding: 0.8em;
+  position: relative;
+}
+
+p {
+  color: var(--color-secondary-darker);
+}
+
+.btn {
+  color: var(--color-accent);
+  background-color: var(--color-primary-card);
+  border: none;
+  padding: 0;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-card);
+  border: none;
+}
+
+.btn-position {
+  position: absolute;
+  bottom: 0.8em;
+}
+
+.card-platform-netflix {
+  color: var(--color-accent-netflix);
+}
