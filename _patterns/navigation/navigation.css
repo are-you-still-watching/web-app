@@ -1,0 +1,115 @@
+/* MAIN NAV CSS */
+
+.logo-nav > i > svg {
+  fill: var(--color-accent);
+}
+
+.logo-nav > span > img {
+  max-width: 5em;
+}
+
+.logo-nav > span {
+  display: none;
+}
+
+.main-nav form > input[type=search] {
+  border: none;
+  width: 32px;
+  background-image: url("/images/search.svg");
+  background-repeat: no-repeat;
+  background-position: left 8px top 15px;
+  background-size: 20px;
+
+  background-color: transparent;
+  outline: none;
+  min-height: 3em;
+  padding-left: 10px;
+  border-bottom: 2px solid transparent;
+  color: transparent;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.main-nav form > input[type=search]:hover {
+  background-color: none;
+}
+
+.main-nav form > input[type=search]:focus {
+  width: 10em;
+  padding-left: 35px;
+  color: #fff;
+  border-color: #fff;
+  background-color: rgba(0, 0, 0, .3);
+  cursor: auto;
+}
+
+.main-nav li a {
+  color: var(--color-secondary-darker);
+  opacity: .5;
+  transition: all .2s linear;
+}
+
+.main-nav li a:hover {
+  color: var(--color-secondary);
+  opacity: 1;
+}
+
+/* FILTER NAV CSS */
+
+.max-length-filter {
+  max-width: 20em;
+}
+
+/* FOOTER NAV CSS */
+
+.social-nav li:not(:first-child) a svg {
+  opacity: .65;
+  transition: all .2s linear;
+}
+
+.social-nav li:not(:first-child) a:hover svg,
+.footer .extra-nav a:hover {
+  opacity: 1;
+  transition: all .2s linear;
+}
+
+.footer .extra-nav a {
+  opacity: .65;
+  text-decoration: underline;
+  transition: all .2s linear;
+}
+
+@media only screen and (min-width: 38em) {
+
+  /* MAIN NAV CSS */
+
+  .logo-nav > span {
+    display: inline-block;
+  }
+
+  .main-nav form > input[type="search"] {
+    background-position: left 8px center;
+
+    width: 100%;
+    color: unset;
+    border-bottom: 2px solid #736f76;
+    padding-left: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all .2s linear;
+  }
+
+  .main-nav form > input[type="search"]:hover {
+    background-color: rgba(0, 0, 0, .3);
+    border-color: var(--color-secondary);
+  }
+
+  .main-nav form > input[type="search"]:focus {
+    width: unset;
+    padding-left: 35px;
+    background-color: rgba(0, 0, 0, .3);
+    border-color: var(--color-secondary);
+    outline: none;
+  }
+
+}
