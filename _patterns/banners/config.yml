@@ -1,0 +1,27 @@
+title: "Banners"
+description: |
+  Banners are designed to provide a visual element that draws the attention of the user. They sometimes serve as a content divider.
+
+patterns:
+  main-page-banner:
+    title: "Main Page Banner"
+    description: |
+      Main page banners are used on the homepage of the site to highlight a show in the user's list.
+    fields:
+      - name: heading1
+        type: string
+        example: "Hi! Welcome to my design portfolio!"
+      - name: heading2
+        type: string
+        example: "You can call me G."
+      - name: text
+        type: string
+        example: "I'm a graphic designer, visual artist, reformed policy wonk, and part-time quizmaster. I rock at creating brand identities."
+      - name: button_text
+        type: string
+        example: "Find out more"
+        required: true
+      - name: button_url
+        type: url
+        example: "#more-about-me"
+        required: true
