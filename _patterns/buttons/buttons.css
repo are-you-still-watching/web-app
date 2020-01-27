@@ -1,29 +1,27 @@
+.asyw-btn {
+  border: none;
+  border-radius: 4px;
+}
+
 .watch-now-btn-white {
   background-color: var(--color-secondary);
   color: var(--color-primary-dark);
-  border-radius: 4px;
-  border: none;
 }
 
 .watch-now-btn-white:hover {
   background-color: var(--color-accent);
   color: var(--color-primary-dark);
-  border-radius: 4px;
-  border: none;
 }
 
 .icon-view-btn {
   background-color: var(--color-primary-dark);
   color: var(--color-secondary-darker);
   border: none;
-  padding: .2em;
 }
 
 .list-view-btn {
   background-color: var(--color-primary-dark);
   color: var(--color-secondary-dark);
-  border: none;
-  padding: .2em;
 }
 
 .icon-icon-btn:active {
