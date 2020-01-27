@@ -1,0 +1,70 @@
+.watch-now-btn-white {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+  border-radius: 4px;
+  border: none;
+}
+
+.watch-now-btn-white:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary-dark);
+  border-radius: 4px;
+  border: none;
+}
+
+.icon-view-btn {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-darker);
+  border: none;
+  padding: .2em;
+}
+
+.list-view-btn {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-dark);
+  border: none;
+  padding: .2em;
+}
+
+.icon-icon-btn:active {
+  color: var(--color-accent);
+}
+
+.list-view-btn:active {
+  color: var(--color-accent);
+}
+
+.icon-view-btn:hover {
+  color: var(--color-secondary);
+}
+
+.list-view-btn:hover {
+  color: var(--color-secondary);
+}
+
+.details-grey-btn{
+  background: none;
+  border: none;
+  color: var(--color-secondary-dark);
+}
+
+.details-grey-btn:hover {
+  color: var(--color-accent);
+  background: none;
+}
+
+.details-yellow-btn {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+}
+
+.details-yellow-btn:hover {
+  background: none;
+  border: none;
+  color: var(--color-secondary-dark);
+}
+
+.underline {
+  border-bottom: 2px solid;
+}
