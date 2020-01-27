@@ -1,0 +1,25 @@
+title: "Navigations"
+description: |
+  The navigation patterns give the user access to important locations on the website.
+
+patterns:
+  logo-nav:
+    title: "Logo Navigation"
+    description: |
+      The logo navigation contains the main logo and wordmark. It's only purpose is to directly link the user back to the homepage. This pattern can be used in the masthead, footer and other locations where a masthead and footer would not be included.
+  main-nav:
+    title: "Main Navigation"
+    description: |
+      The main navigation contains a search bar and profile icon. The search bars purpose is to filter or find specific things on the website. While the profile icon links the users profile so they can make changes as needed. This pattern can only be used in the masthead.
+  social-nav:
+    title: "Social Navigation"
+    description: |
+      The social navigation contains social media icons, and the logo navigation pattern. It's purpose is to give the user easy access to A.Y.S.Ws social media pages or to link the user back to the homepage. This pattern can only be used in the footer.
+  extra-nav:
+    title: "Extra Navigation"
+    description: |
+      The extra navigation contains secondary useful links. The purpose of this is to give other secondary useful information to the user but otherwise isn't incredibly important to them. This pattern should only be used in the footer.
+  filter-nav:
+    title: "Filter Navigation"
+    description: |
+      The filter navigation contains useful filter options. The purpose of this is to give the user full control of the content they see on their screen. This pattern should only be used in the banner or masthead on relevant pages.

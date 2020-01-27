@@ -1,0 +1,8 @@
+.footer {
+  background-color: var(--color-primary-dark);
+  filter: drop-shadow(0 -7px 8px rgba(0, 0, 0, .2));
+}
+
+.footer small {
+  color: #736f76;
+}
