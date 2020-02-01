@@ -1,9 +1,7 @@
 ---
 title: The Witcher
 name: "The Witcher"
-non_conflict: false
-platform-logo:
-  - "/images/platforms/netflix-logo.png"
+meta: A banner showing details about a show that the user is currently watching.
 description: |
   Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.
 description_1: |
@@ -11,6 +9,7 @@ description_1: |
 non_conflict: false
 images:
   - "/images/the-witcher-series-background-image.jpg"
+  - "/images/platforms/netflix-logo.png"
 episode-number: |
   S01 • EP06
 episode-title: |
