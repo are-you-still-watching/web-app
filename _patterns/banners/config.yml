@@ -6,29 +6,11 @@ patterns:
     title: "Main Page Banner"
     description: |
       Main page banners are used on the homepage of the site to highlight a show in the user's list.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.shows[0]"
-          type: Product
   series-page-banner:
     title: "Series Page Banner"
     description: |
       Series page banners provide a short text description of the series, along with the number of the current episode being watched and a progress bar showing how much of that episode has been watched.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.shows[0]"
-          type: Product
   episode-details-banner:
     title: "Episode Details Banner"
     description: |
       Episode details banners provide information about a specific episode in a series, including the title of the episode, the number of the season and episode, and a short text description of the plot of the episode.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.shows[0]"
-          type: Product
