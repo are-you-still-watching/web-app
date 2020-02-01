@@ -1,0 +1,25 @@
+title: "Buttons"
+description: |
+  The buttons are used to access an element or to activate a function.
+
+patterns:
+  watch-now-button-white:
+    title: "Watch Now"
+    description: |
+      This button is used to watch an episode. The button will allow the user to play the full episode.
+  list-view-button:
+    title: "List View"
+    description: |
+      This button will allow the user to see cards as a list. This button will be placed at the top of the episode list.
+  icon-view-button:
+    title: "Icon View"
+    description: |
+      This button will allow the user to see cards in a square view format. This button will be placed at the top of the episode list.
+  details-grey-button:
+    title: "Details - Grey"
+    description: |
+      This button will allow the user to access details about a show and will be on the banner.
+  details-yellow-button:
+    title: "Details - Yellow"
+    description: |
+      This button will allow the user to access details about a show and will be used on cards.
