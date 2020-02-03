@@ -10,7 +10,12 @@ patternbot:
   colors:
     background: "--color-primary"
     accent: "--color-secondary"
+    patterns:
+      icons.icons: "--color-primary-light"
 
   layouts:
     default: |
       The default contains the header and footer patterns that will been seen on all pages of the website.
+collections:
+  shows:
+    output: true

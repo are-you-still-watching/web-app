@@ -21,7 +21,7 @@
 
 .list-view-btn {
   background-color: var(--color-primary-dark);
-  color: var(--color-secondary-dark);
+  color: var(--color-secondary-darker);
 }
 
 .icon-icon-btn:active {
