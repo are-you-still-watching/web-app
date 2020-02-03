@@ -1,0 +1,25 @@
+title: "Cards"
+description: |
+  The card patterns display info on episodes of shows.
+
+patterns:
+  card-grid-view:
+    title: "Grid View Card"
+    description: |
+      The Grid View Card contains episode info on a show, but does not display any description. To be used on a homepage or search in a grid layout, shows what platform the show is from.
+  card-list-view:
+    title: "List View Card"
+    description: |
+      The List View Card contains episode info on a show, but does not display any description. To be used on a homepage or search in a list layout, shows what platform the show is from.
+  card-grid-view-desc:
+    title: "Grid View Card With Description"
+    description: |
+      The Grid View Description Card contains episode info on a show, and displays a description of the episode. To be used on a shows page in a grid layout.
+  card-list-view-desc:
+    title: "List View Card With Description"
+    description: |
+      The List View Description Card contains episode info on a show, and displays a description of the episode. To be used on a shows page in a list layout.
+  card-popup:
+    title: "Popout Card"
+    description: |
+      The Popout card will show more detailed information on an episode or show, clicking on the details button located on any other card will open this one.
