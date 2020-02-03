@@ -10,6 +10,12 @@
   background-size: cover;
 }
 
+.banner-profile {
+  background-image: linear-gradient(to top, var(--color-primary) 10%, rgba(0, 0, 0, 0)), url("images/background-profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner .banner-streamer {
   max-width: 6em;
 }
