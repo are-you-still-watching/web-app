@@ -10,6 +10,8 @@ patternbot:
   colors:
     background: "--color-primary"
     accent: "--color-secondary"
+    patterns:
+      icons.icons: "--color-primary-light"
 
   layouts:
     default: |
