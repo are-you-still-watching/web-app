@@ -14,3 +14,6 @@ patternbot:
   layouts:
     default: |
       The default contains the header and footer patterns that will been seen on all pages of the website.
+collections:
+  shows:
+    output: true
