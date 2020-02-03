@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Are You Still Watching?</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <ul>
+    <li><a href="#nav">Skip to the navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#footer">Skip to the footer content</a></li>
+  </ul>
+  {% pattern header/masthead %}
+  <main role="main" id="main">
+    {{content}}
+  </main>
+  {% pattern footer/footer %}
+</body>
+</html>

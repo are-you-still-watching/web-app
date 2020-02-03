@@ -1,10 +1,16 @@
 .card {
   background-color: var(--color-primary-card);
+  border-radius: 7px;
 }
 
-.card-img {
+.card-img-grid {
   position: relative;
-  border-radius: 7px;
+  border-radius: 7px 7px 0 0;
+}
+
+.card-img-list {
+  position: relative;
+  border-radius: 7px 0 0 7px;
 }
 
 .img-hover:hover {
