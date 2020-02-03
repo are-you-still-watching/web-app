@@ -19,3 +19,5 @@ patternbot:
 collections:
   shows:
     output: true
+  profiles:
+    output: true
