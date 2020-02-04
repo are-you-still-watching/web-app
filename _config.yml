@@ -11,7 +11,7 @@ patternbot:
     background: "--color-primary"
     accent: "--color-secondary"
     patterns:
-      icons.icons: "--color-primary-light"
+      icons.icons: "--color-primary"
 
   layouts:
     default: |
