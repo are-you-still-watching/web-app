@@ -32,3 +32,13 @@ patterns:
         data:
           source: "site.shows[3]"
           type: Show
+  profile-banner:
+    title: "Profile Banner"
+    description: |
+      Profile banners provide information about the user's profile, including the streaming platforms that are linked to their account.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.profiles[0]"
+          type: Profiles
