@@ -10,6 +10,7 @@ non_conflict: false
 images:
   - "/images/the-witcher-series-background-image.jpg"
   - "/images/platforms/netflix-logo.png"
+  - "/images/the-witcher-thumbnail.jpg"
 episode-number: |
   S01 • EP06
 episode-title: |

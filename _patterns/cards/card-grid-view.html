@@ -1,7 +1,7 @@
 <div class="card">
   <div class="card-img-grid chop img-flex">
-    <a class="" href="#">
-      <img class="img-hover" src="/images/lostinspace.jpg" alt="">
+    <a href="#">
+      <img class="img-hover" src="/images/the-mandalorian-thumbnail.jpg" alt="">
     </a>
     <div class="card-play">
       <a href="#">
@@ -10,10 +10,10 @@
     </div>
   </div>
   <div class="card-txt">
-    <h4 class="push-0">Series</h4>
+    <h4 class="push-0">{{include.data.name}}</h4>
     <h6 class="micro card-platform-netflix push-1-2">Netflix</h6>
-    <h5 class="push-0">Season - Episode</h5>
-    <p>Title</p>
+    <h5 class="push-0">{{include.data.episode-number}}</h5>
+    <p>{{include.data.episode-title}}</p>
     <a class="btn milli" href="#">DETAILS</a>
   </div>
 </div>
