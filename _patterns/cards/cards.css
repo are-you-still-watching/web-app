@@ -65,3 +65,7 @@ p {
 .card-platform-netflix {
   color: var(--color-accent-netflix);
 }
+
+.card-platform-disney {
+  color: var(--color-accent-disney);
+}
