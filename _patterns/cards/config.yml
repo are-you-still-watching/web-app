@@ -7,6 +7,14 @@ patterns:
     title: "Grid View Card"
     description: |
       The Grid View Card contains episode info on a show, but does not display any description. To be used on a homepage or search in a grid layout, shows what platform the show is from.
+    padding: 2em
+    width: 20em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.shows[0]"
+          type: Show
   card-list-view:
     title: "List View Card"
     description: |
