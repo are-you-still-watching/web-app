@@ -57,3 +57,7 @@
 .crave-color {
   color: var(--color-accent-crave);
 }
+
+.card-platform-disney {
+  color: var(--color-accent-disney);
+}
