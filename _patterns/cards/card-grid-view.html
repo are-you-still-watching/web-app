@@ -8,10 +8,11 @@
         </i>
       </div>
       <div class="pin-bl gutter-1-2 ep-info">
-        {% for ep in include.data.episodes %}
+        {% if ep_index %}
+          {% assign ep=include.data.episodes[include.ep_index] %}
+        {% endif %}
           <h5 class="push-0 normal ib kilo">S{{ep.episode-season}} • Ep{{ep.episode-number}} | {{ep.time}}</h5>
           <p class="push-1-2 milli">{{ep.episode-title}}</p>
-        {% endfor %}
       </div>
     </div>
   </a>
