@@ -3,67 +3,59 @@
   border-radius: 7px;
 }
 
-.card-img-grid {
-  position: relative;
-  border-radius: 7px 7px 0 0;
+.card > a .card-icon,
+.card > a img {
+  transition: all .3s ease;
 }
 
-.card-img-list {
-  position: relative;
-  border-radius: 7px 0 0 7px;
+.card > a .ep-info {
+  text-shadow: -3px 0 5px #000;
 }
 
-.img-hover:hover {
-  filter: blur(3px);
-  transition: all .2s ease;
-}
-
-.card-play {
-  position: absolute;
-  max-width: 30%;
-  bottom: 35%;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: all .2s ease;
+.card > a .card-icon {
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, .8));
   opacity: 0;
 }
 
-.card-img:hover .card-play {
-  opacity: 1;
-}
-
-.card-img:hover .img-hover {
+.card > a:hover img {
   filter: blur(3px);
 }
 
-.card-txt {
-  padding: 0.8em;
-  position: relative;
+.card > a:hover .card-icon {
+  opacity: 1;
 }
 
-p {
+.card > a .card-icon:hover {
+  color: var(--color-accent);
+}
+
+.card > a .card-icon:hover > span {
+  opacity: 1;
+}
+
+.card-cont {
+  background-color: var(--color-primary-dark);
+}
+
+
+.card-cont > p {
   color: var(--color-secondary-darker);
 }
 
-.btn {
-  color: var(--color-accent);
-  background-color: var(--color-primary-card);
-  border: none;
-  padding: 0;
-}
-
-.btn:hover {
-  background-color: var(--color-primary-card);
-  border: none;
-}
-
-.btn-position {
-  position: absolute;
-  bottom: 0.8em;
-}
-
-.card-platform-netflix {
+.netflix-color {
   color: var(--color-accent-netflix);
+}
+
+.prime-color {
+  color: var(--color-accent-prime);
+}
+
+.disney-color {
+  color: var(--color-accent-disney);
+}
+
+.crave-color {
+  color: var(--color-accent-crave);
 }
 
 .card-platform-disney {
