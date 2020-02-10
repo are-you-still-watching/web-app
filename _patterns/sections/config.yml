@@ -1,0 +1,19 @@
+title: "Sections"
+description: |
+  This library contains all the necessary sections that are available in the Are You Still Watching website and web app.
+
+patterns:
+  home-content:
+    title: "Homepage Main Section"
+    description: |
+      This section contains the cards used for the homepage of the website.
+    padding: 2em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.shows[0]"
+          type: Show
+  inside-content:
+    title: "Inside Page Section"
+    description: This sections contains all the cards used for the inside page of a website. The content displays details on any specific show.

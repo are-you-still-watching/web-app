@@ -24,18 +24,14 @@
   color: var(--color-secondary-darker);
 }
 
-.icon-icon-btn:active {
+.icon-icon-btn:active,
+.list-view-btn:active,
+.details-yellow-btn {
   color: var(--color-accent);
+  transition: all .2s ease;
 }
 
-.list-view-btn:active {
-  color: var(--color-accent);
-}
-
-.icon-view-btn:hover {
-  color: var(--color-secondary);
-}
-
+.icon-view-btn:hover,
 .list-view-btn:hover {
   color: var(--color-secondary);
 }
@@ -49,12 +45,6 @@
 .details-grey-btn:hover {
   color: var(--color-accent);
   background: none;
-}
-
-.details-yellow-btn {
-  background: none;
-  border: none;
-  color: var(--color-accent);
 }
 
 .details-yellow-btn:hover {

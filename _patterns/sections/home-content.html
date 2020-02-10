@@ -1,0 +1,9 @@
+<section class="wrapper wrapper-asyw">
+  <div class="grid grid-stretch gutter-1-2">
+    {% for shows in site.shows %}
+    <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter-1-2 push unit-content-distribute">
+      {% pattern cards/card-grid-view data=shows number=forloop.index %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

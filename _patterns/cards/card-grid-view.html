@@ -1,19 +1,25 @@
-<div class="card">
-  <div class="card-img-grid chop img-flex">
-    <a class="" href="#">
-      <img class="img-hover" src="/images/lostinspace.jpg" alt="">
-    </a>
-    <div class="card-play">
-      <a href="#">
-        <img src="/images/playbutton.png" alt="">
-      </a>
+<div class="card chop content-fill unit-content-distribute">
+  <a class="block" href="{{include.data.platform-link}}">
+    <div class="relative embed embed-1by1">
+      <img class="img-flex embed-item" src="{{include.data.image-thumbnail}}" alt="">
+      <div class="card-icon pin-c text-center">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#play"></use></svg>
+        </i>
+      </div>
+      <div class="pin-bl gutter-1-2 ep-info">
+        {% for ep in include.data.episodes %}
+          <h5 class="push-0 normal ib kilo">S{{ep.episode-season}} • Ep{{ep.episode-number}} | {{ep.time}}</h5>
+          <p class="push-1-2 milli">{{ep.episode-title}}</p>
+        {% endfor %}
+      </div>
     </div>
-  </div>
-  <div class="card-txt">
-    <h4 class="push-0">Series</h4>
-    <h6 class="micro card-platform-netflix push-1-2">Netflix</h6>
-    <h5 class="push-0">Season - Episode</h5>
-    <p>Title</p>
-    <a class="btn milli" href="#">DETAILS</a>
+  </a>
+  <div class="card-cont gutter-1-2 pad-b-1-2 pad-t-1-2 content-fill unit-content-distribute">
+      <h4 class="push-0 kilo">{{include.data.name}}</h4>
+      <h6 class="milli {{include.data.platform-color}} push-1-2">{{include.data.platform-name}}</h6>
+    <div class="content-fill">
+      {% pattern buttons/details-yellow-button %}
+    </div>
   </div>
 </div>
