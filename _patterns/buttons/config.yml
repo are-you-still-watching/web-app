@@ -23,3 +23,15 @@ patterns:
     title: "Details - Yellow"
     description: |
       This button will allow the user to access details about a show and will be used on cards.
+  subscription-disney:
+    title: "Subscription - Disney"
+    description: |
+      This button will redirect to the disney plus plateform and will be used on the profile page.
+  subscription-netflix:
+    title: "Subscription - Netflix"
+    description: |
+      This button will redirect to Netflix website and will be used on the profile page.
+  subscription-primevideo:
+    title: "Subscription - Prime Video"
+    description: |
+      This button will redirect to the Prime Video website and will be used on the profile page.

@@ -56,3 +56,23 @@
 .underline {
   border-bottom: 2px solid;
 }
+
+.btn-subscription {
+  border-radius: 30px;
+}
+
+.btn-subscription:hover {
+  filter: drop-shadow(2px 1px 8px rgba(0, 0, 0, .7));
+}
+
+.netflix {
+  background-color: var(--color-primary-dark);
+}
+
+.prime-video {
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(8,172,226,1) 100%);
+}
+
+.disney {
+  background: radial-gradient(circle, rgba(31,62,142,1) 0%, rgba(6,5,39,1) 100%);
+}
