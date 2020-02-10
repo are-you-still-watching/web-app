@@ -13,10 +13,35 @@ meta: A banner showing details about a show that the user is currently watching.
 description: |
   Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.
 episodes:
-  - episode-season: "01"
+  - epsiode-thumbnail: "/images/ep-thumb/-thumb.jpg"
+    episode-season: "01"
+    episode-number: "01"
+    time: "60m"
+    episode-title: ""
+    episode-description: ""
+  - epsiode-thumbnail: "/images/ep-thumb/-thumb.jpg"
+    episode-season: "01"
     episode-number: "02"
     time: "60m"
     episode-title: "Rare Species"
     episode-description: |
       A mysterious man tries to entice Geralt to join a hunt for a rampaging dragon, a quest that attracts a familiar face. Ciri questions who she can trust.
+  - epsiode-thumbnail: "/images/ep-thumb/-thumb.jpg"
+    episode-season: "01"
+    episode-number: "03"
+    time: "60m"
+    episode-title: ""
+    episode-description: ""
+  - epsiode-thumbnail: "/images/ep-thumb/-thumb.jpg"
+    episode-season: "01"
+    episode-number: "04"
+    time: "60m"
+    episode-title: ""
+    episode-description: ""
+  - epsiode-thumbnail: "/images/ep-thumb/-thumb.jpg"
+    episode-season: "01"
+    episode-number: "05"
+    time: "60m"
+    episode-title: ""
+    episode-description: ""
 ---
