@@ -1,18 +1,24 @@
-<div class="card grid">
-  <div class="card-img-list chop img-flex unit xs-1-2 m-1-3">
-    <a class="" href="#">
-      <img class="img-hover" src="/images/the-mandalorian-thumbnail.jpg" alt="">
-    </a>
-    <div class="card-play">
-      <a href="#">
-        <img src="/images/playbutton.png" alt="">
-      </a>
+<div class="card chop grid">
+  <a class="block unit xs-1-2 m-1-3" href="{{include.data.platform-link}}">
+    <div class="relative embed embed-1by1">
+      <img class="img-flex embed-item" src="{{include.data.image-thumbnail}}" alt="">
+      <div class="card-icon pin-c text-center">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#play"></use></svg>
+        </i>
+      </div>
+      <div class="pin-bl gutter-1-2 ep-info">
+        {% if ep_index %}
+          {% assign ep=include.data.episodes[include.ep_index] %}
+        {% endif %}
+          <h5 class="push-0 normal ib kilo">S{{ep.episode-season}} • Ep{{ep.episode-number}} | {{ep.time}}</h5>
+          <p class="push-1-2 milli">{{ep.episode-title}}</p>
+      </div>
     </div>
-  </div>
-  <div class="card-txt unit xs-1-2 m-2-3">
-    <h4 class="push-0">{{include.data.episode-title}}</h4>
-    <h5 class="push-0">{{include.data.episode-number}}</h5>
+  </a>
+  <div class="card-cont gutter-1-2 pad-b-1-2 pad-t-1-2 unit xs-1-2 m-2-3">
+    <h4 class="push-0 kilo">{{include.data.name}}</h4>
+    <h6 class="milli {{include.data.platform-color}} push-1-2">{{include.data.platform-name}}</h6>
     <p>{{include.data.description}}</p>
-    <a class="btn milli btn-position" href="#">DETAILS</a>
   </div>
 </div>
