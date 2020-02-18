@@ -27,13 +27,15 @@ episodes:
     episode-number: "02"
     time: "60m"
     episode-title: "Cherry"
-    episode-description: "The Boys get a Superhero; Starlight gets payback; Homelander behaves badly; a Senator gets rowdy."
+    episode-description: |
+      The Boys get a Superhero; Starlight gets payback; Homelander behaves badly; a Senator gets rowdy.
   - episode-thumbnail: "/images/ep-thumb/b-03-thumb.jpg"
     episode-season: "01"
     episode-number: "03"
     time: "60m"
     episode-title: "Get Some"
-    episode-description: "It's the race of the century. A-Train versus Shockwave, vying for the title of World's Fastest Man. Meanwhile, the Boys are reunited and it feels so good."
+    episode-description: |
+      It's the race of the century. A-Train versus Shockwave, vying for the title of World's Fastest Man. Meanwhile, the Boys are reunited and it feels so good.
   - episode-thumbnail: "/images/ep-thumb/b-04-thumb.jpg"
     episode-season: "01"
     episode-number: "04"
