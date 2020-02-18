@@ -1,5 +1,5 @@
 .card {
-  background-color: var(--color-primary-card);
+  background-color: var(--color-primary-dark);
   border-radius: 7px;
 }
 
@@ -22,19 +22,20 @@
 }
 
 .card > a:hover .card-icon {
-  opacity: 1;
-}
-
-.card > a .card-icon:hover {
   color: var(--color-accent);
+  opacity: 1;
 }
 
 .card > a .card-icon:hover > span {
   opacity: 1;
 }
 
-.card-cont {
-  background-color: var(--color-primary-dark);
+.card-inside a:hover span {
+  color: var(--color-accent);
+}
+
+.shadow {
+  text-shadow: 0 0 3px rgba(0, 0, 0, .9);
 }
 
 

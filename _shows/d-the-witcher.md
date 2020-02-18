@@ -1,17 +1,21 @@
 ---
+layout: inside
 title: The Witcher
 name: "The Witcher"
-non_conflict: false
-platform-logo:
-  - "/images/platforms/disney-logo.png"
+genre: "tvshow"
+platform-logo: "/images/platforms/netflix-logo.png"
 platform-name: "Netflix"
 platform-color: "netflix-color"
 platform-link: "https://www.netflix.com/ca/"
 image-thumbnail: "/images/the-witcher-thumbnail.jpg"
 image-banner: "/images/the-witcher-series-background-image.jpg"
+banner-progress: "three-quarter"
+banner-episode: "Rare Species"
+banner-timeleft: "25 mins remaining"
+masthead: "witcher"
 meta: A banner showing details about a show that the user is currently watching.
-description: |
-  Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.
+show-description: |
+  Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world.
 episodes:
   - episode-thumbnail: "/images/ep-thumb/w-01-thumb.jpg"
     episode-season: "01"

@@ -1,3 +1,84 @@
 .wrapper-asyw {
   max-width: 60em;
 }
+
+.filter-nav .filter-btn,
+.season-nav .filter-btn {
+  color: var(--color-secondary);
+  border-bottom: 2px solid transparent;
+  opacity: .7;
+}
+
+.filter-nav .filter-btn:hover,
+.season-nav .filter-btn  {
+  color: var(--color-accent);
+  opacity: 1;
+}
+
+#all:checked ~ .tool-bar .filter-nav .all,
+#movies:checked ~ .tool-bar .filter-nav .movies,
+#shows:checked ~ .tool-bar .filter-nav .shows,
+#season1:checked ~ .season-filter .season-nav .season1 {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+  opacity: 1;
+}
+
+#all:checked ~ .below-content .tvshow,
+#all:checked ~ .below-content .movie {
+  display: flex;
+}
+
+#shows:checked ~ .below-content .movie {
+  display: none;
+}
+
+#shows:checked ~ .below-content .tvshow {
+  display: flex;
+}
+
+#movies:checked ~ .below-content .tvshow {
+  display: none;
+}
+
+#movies:checked ~ .below-content .movie {
+  display: flex;
+}
+
+.view-nav .view-btn {
+  color: var(--color-secondary-dark);
+  background-color: var(--color-primary-dark);
+  border-radius: 3px;
+}
+
+.view-nav .view-btn:hover {
+  color: var(--color-accent);
+}
+
+#grid-view:checked ~ .tool-bar .view-nav .grid-view,
+#list-view:checked ~ .tool-bar .view-nav .list-view {
+  color: var(--color-accent);
+}
+
+#grid-view:checked ~ .below-content .grid-view,
+#list-view:checked ~ .below-content .list-view {
+  display: block;
+}
+
+#grid-view:checked ~ .below-content .list-view,
+#list-view:checked ~ .below-content .grid-view {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .tool-bar .view-nav {
+    text-align: right;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+}

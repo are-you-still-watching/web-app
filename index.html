@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<section>
-  {% pattern banners/main-page-banner data=Show %}
+<section class="grid">
+  <div class="unit xs-0 s-0 m-1 push">
+    {% assign promo=site.shows[3] %}
+    {% pattern banners/main-page-banner data=promo tagline="Out Now on Netflix!" %}
+  </div>
+  <div class="unit xs-1 relative">
+    {% pattern sections/home-content data=shows %}
+  </div>
 </section>
-
-{% pattern sections/home-content data=Show %}

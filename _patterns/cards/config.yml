@@ -21,13 +21,13 @@ patterns:
     title: "List View Card"
     description: |
       The List View Card contains episode info on a show, but does not display any description. To be used on a homepage or search in a list layout, shows what platform the show is from.
-    padding: 2em
+    padding: 1em
     width: 40em
     fields:
       - name: data
         type: object
         data:
-          source: "site.shows[0]"
+          source: "site.shows[3]"
           type: Show
       - name: ep_index
         example: 2
@@ -43,8 +43,6 @@ patterns:
         data:
           source: "site.shows[0]"
           type: Show
-      - name: ep_index
-        example: 2
   card-list-view-desc:
     title: "List View Card With Description"
     description: |
@@ -57,8 +55,6 @@ patterns:
         data:
           source: "site.shows[0]"
           type: Show
-      - name: ep_index
-        example: 2
   card-popup:
     title: "Popout Card"
     description: |

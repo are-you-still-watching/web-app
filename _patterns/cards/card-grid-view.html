@@ -1,4 +1,4 @@
-<div class="card chop content-fill unit-content-distribute">
+<div class="card chop content-fill unit-content-distribute {{include.data.genre}}">
   <a class="block" href="{{include.data.platform-link}}">
     <div class="relative embed embed-1by1">
       <img class="img-flex embed-item" src="{{include.data.image-thumbnail}}" alt="">
@@ -11,16 +11,20 @@
         {% if ep_index %}
           {% assign ep=include.data.episodes[include.ep_index] %}
         {% endif %}
-          <h5 class="push-0 normal ib kilo">S{{ep.episode-season}} • Ep{{ep.episode-number}} | {{ep.time}}</h5>
-          <p class="push-1-2 milli">{{ep.episode-title}}</p>
+        <h5 class="push-0 normal ib kilo">S{{ep.episode-season}} • Ep{{ep.episode-number}} | {{ep.time}}</h5>
+        <p class="push-1-2 milli">{{ep.episode-title}}</p>
       </div>
     </div>
   </a>
-  <div class="card-cont gutter-1-2 pad-b-1-2 pad-t-1-2 content-fill unit-content-distribute">
+  <div class="card-cont island-1-2 grid grid-middle">
+    <div class="unit xs-1">
       <h4 class="push-0 kilo">{{include.data.name}}</h4>
-      <h6 class="milli {{include.data.platform-color}} push-1-2">{{include.data.platform-name}}</h6>
-    <div class="content-fill">
-      {% pattern buttons/details-yellow-button %}
+    </div>
+    <div class="unit xs-1-2">
+      <h6 class="milli {{include.data.platform-color}} push-0">{{include.data.platform-name}}</h6>
+    </div>
+    <div class="unit xs-1-2 text-right">
+      {% pattern buttons/details-yellow-button url=include.data.url %}
     </div>
   </div>
 </div>

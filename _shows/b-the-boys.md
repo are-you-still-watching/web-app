@@ -1,15 +1,20 @@
 ---
+layout: inside
 title: The Boys
 name: "The Boys"
-non_conflict: false
-platform-logo:
-  - "/images/platforms/prime-logo.png"
+genre: "tvshow"
+platform-logo: "/images/platforms/prime-logo.png"
 platform-name: "Prime Video"
 platform-color: "prime-color"
 platform-link: "https://www.primevideo.com/"
 image-thumbnail: "/images/the-boys-thumbnail.jpg"
 image-banner: "/images/the-boys-series-background-image.jpg"
-show-description: "Superheroes are often as popular as celebrities, as influential as politicians, and sometimes even as revered as gods. But that's when they're using their powers for good. What happens when the heroes go rogue and start abusing their powers? When it's the powerless against the super powerful, the Boys head out on a heroic quest to expose the truth about the Seven and Vought, the multibillion-dollar conglomerate that manages the superheroes and covers up their dirty secrets."
+banner-progress: "three-quarter"
+banner-episode: "The Female of the Spieces"
+banner-timeleft: "10 mins remaining"
+masthead: "the-boys"
+show-description: |
+  A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.
 episodes:
   - episode-thumbnail: "/images/ep-thumb/b-01-thumb.jpg"
     episode-season: "01"

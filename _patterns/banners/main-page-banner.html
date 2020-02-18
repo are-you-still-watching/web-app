@@ -1,17 +1,17 @@
-<div class="banner banner-main">
-  <div class="embed embed-16by9 wrapper relative">
-    <div class="pin-lc island-2">
+<div class="banner banner-main {{include.data.masthead}}">
+  <div class="embed embed-3by1 wrapper relative">
+    <div class="pin-lc gutter">
       <div class="banner-streamer">
-        <img class="img-flex" src="/images/platforms/netflix-logo.png" alt="">
+        <img class="img-flex" src="{{include.data.platform-logo}}" alt="{{include.data.platform-name}} logo" aria-label="{{include.data.platform-name}} streaming service logo.">
       </div>
       <h1 class="push-0 light">{{include.data.name}}</h1>
-      <h2 class="giga medium">Season 2 Out Now</h2>
+      <h2 class="giga medium">{{include.tagline}}</h2>
       <ul class="list-group-inline">
         <li>
           {% pattern buttons/watch-now-button-white %}
         </li>
         <li class="gutter">
-          {% pattern buttons/details-yellow-button %}
+          {% pattern buttons/details-grey-button url=include.data.url %}
         </li>
       </ul>
     </div>

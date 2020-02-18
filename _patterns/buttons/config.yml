@@ -7,31 +7,47 @@ patterns:
     title: "Watch Now"
     description: |
       This button is used to watch an episode. The button will allow the user to play the full episode.
+    padding: 1em
   list-view-button:
     title: "List View"
     description: |
       This button will allow the user to see cards as a list. This button will be placed at the top of the episode list.
+    padding: 1em
   icon-view-button:
     title: "Icon View"
     description: |
       This button will allow the user to see cards in a square view format. This button will be placed at the top of the episode list.
+    padding: 1em
   details-grey-button:
     title: "Details - Grey"
     description: |
       This button will allow the user to access details about a show and will be on the banner.
+    padding: 1em
+    fields:
+      - name: url
+        type: string
+        example: "#"
   details-yellow-button:
     title: "Details - Yellow"
     description: |
       This button will allow the user to access details about a show and will be used on cards.
+    padding: 1em
+    fields:
+      - name: url
+        type: string
+        example: "#"
   subscription-disney:
     title: "Subscription - Disney"
     description: |
       This button will redirect to the disney plus plateform and will be used on the profile page.
+    padding: 1em
   subscription-netflix:
     title: "Subscription - Netflix"
     description: |
       This button will redirect to Netflix website and will be used on the profile page.
+    padding: 1em
   subscription-primevideo:
     title: "Subscription - Prime Video"
     description: |
       This button will redirect to the Prime Video website and will be used on the profile page.
+    padding: 1em

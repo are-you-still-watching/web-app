@@ -7,7 +7,7 @@ patterns:
     title: "Homepage Main Section"
     description: |
       This section contains the cards used for the homepage of the website.
-    padding: 2em
+    padding: .75em
     fields:
       - name: data
         type: object
