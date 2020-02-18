@@ -79,3 +79,22 @@ s {
 mark {
   background-color: var(--color-accent);
 }
+
+.white {
+  color: #000;
+  background-color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.edit-prof .prof-btn {
+  text-decoration: none;
+  color: #5583ff;
+}
+
+.edit-prof .prof-btn:hover {
+
+  text-decoration: underline;
+}
