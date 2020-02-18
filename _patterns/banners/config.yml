@@ -10,8 +10,11 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.shows[3]"
+          source: "site.shows[0]"
           type: Show
+      - name: tagline
+        type: stream
+        example: "Watch It Here Now"
   series-page-banner:
     title: "Series Page Banner"
     description: |
@@ -20,7 +23,7 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.shows[3]"
+          source: "site.shows[0]"
           type: Show
   episode-details-banner:
     title: "Episode Details Banner"

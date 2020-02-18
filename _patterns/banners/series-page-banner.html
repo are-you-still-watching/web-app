@@ -1,13 +1,24 @@
-<div class="banner banner-main">
-  <div class="embed embed-16by9 wrapper relative">
-    <div class="pin-lc island-2">
+<div class="banner banner-main {{include.data.masthead}} gutter-1-2">
+  <div class="embed embed-asyw wrapper relative">
+    <div class="pin-lc gutter-1-2">
       <div class="banner-streamer">
-        <img class="img-flex" src="/images/platforms/netflix-logo.png" alt="">
+        <img class="img-flex" src="{{include.data.platform-logo}}" alt="{{include.data.platform-name}} logo" aria-label="{{include.data.platform-name}} streaming service logo.">
       </div>
       <h1 class="push-0 light">{{include.data.name}}</h1>
-      <p class="max-length">{{include.data.description}}</p>
-      <h2 class="giga medium push-0">{{include.data.episode-number}}</h2>
-      <img class="img-flex max-length push-1-4" src="/images/progress-bar.png" alt="">
+      <p class="max-length-no-center">{{include.data.show-description}}</p>
+      <div class="grid grid-middle">
+        <div class="unit xs-1 s-1 m-1-2 push-1-2">
+          <h2 class="kilo medium push-0">{{include.data.banner-episode}}</h2>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 push-1-2 timeleft">
+          <span>{{include.data.banner-timeleft}}</span>
+        </div>
+        <div class="unit xs-1">
+          <div class="progress-bar push">
+            <div class="amount {{include.data.banner-progress}}"></div>
+          </div>
+        </div>
+      </div>
       <ul class="list-group-inline">
         <li>
           {% pattern buttons/watch-now-button-white %}
